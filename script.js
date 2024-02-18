@@ -30,8 +30,7 @@ setInterval(() => {
   }
 
   if (rockLeft < 50 && rockLeft > 0 && dinoTop > 150) {
-    alert("Your face got smashed by PSQL
-          \n You got a score of: " + score +
+    alert("Your face got smashed by PSQL \n\n You got a score of: " + score +
       "\n\nPlay again?");
     updateHighScore();
     resetGame();
